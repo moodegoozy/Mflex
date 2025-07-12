@@ -1,0 +1,16 @@
+name: mflix
+description: A Netflix-like app with registration and video player
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.7.0
+  chewie: ^1.7.1
+
+flutter:
+  uses-material-design: true
